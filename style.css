@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: #ecebeb;
+    margin: 0;
+    padding: 0;
+}
+ /* ----------------------
+ ----------nav style------
+ -------------------------- */
+.influ
+{
+    margin-top: 60px;
+    margin-left: 120px; 
+}
+ /* ----------------------
+ ----------first container------
+ -------------------------- */
+.start-jurney
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.intro
+{
+    font-size: 20px;
+}
+.button
+{
+    text-decoration: none;
+    
+}
+.button p
+{
+    width: 150px;
+    height: 26px;
+    background-color:#E02C6D ;
+    text-align: center;
+    color:white;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 3px;
+}
+.camera
+{
+    Width: 440px;
+    Height: 414px;
+}
+/* ----------------------
+section popular collection
+---------------------------- */
+main
+{
+    display: flex;
+    justify-content: center;
+}
+.second-nav h2
+{
+    margin-top: 70px;
+    text-align: center;
+    justify-content: center;
+}
+.popular
+{
+    width: 1100px;
+    /* height: 1662px; */
+    margin-top: 30px;
+}
+
+.photos
+{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    align-items: center;
+    
+}
+.photo
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.photo img
+{
+    width: 300px;
+    height: 250px;
+}
+.fa-star, .fa-star-half-alt
+{
+    color: orange;
+}
+.see-more
+{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 120px;
+    justify-content:flex-end;
+}
+.see-more a
+{
+    text-decoration: none;
+    color: #E02C6D;
+}
+footer
+{
+    text-align: center;
+    margin-top: 70px;
+    justify-content: center;
+    color: white;
+    background-color: #120E43;
+    padding: 30px;
+}
