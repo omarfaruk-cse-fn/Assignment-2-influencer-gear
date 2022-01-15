@@ -18,7 +18,7 @@ body{
  /* ----------------------
  ----------first container------
  -------------------------- */
-.start-jurney
+.intros
 {
     display: flex;
     align-items: center;
@@ -49,6 +49,7 @@ body{
     Width: 440px;
     Height: 414px;
 }
+
 /* ----------------------
 section popular collection
 ---------------------------- */
@@ -139,4 +140,54 @@ footer
     color: white;
     background-color: #120E43;
     padding: 30px;
+}
+
+
+/* --------------------------
+      Flexible for Mobile
+      ------------------------ */
+
+    @media (max-width:600px) 
+    {
+        .start-jurney, .popular
+        {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+            
+        }
+        .intros, .photos, .bonus-container
+        {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content:last baseline;
+            align-content: center;
+            justify-items: center;
+        }
+      
+       
+        
+    }
+    /* -----------------------
+    -------------------------
+             Tablet Device
+             ---------------- */
+
+ @media (min-width:602px) and (max-width:990px)
+ {
+.start-jurney, .popular
+    {
+         width: 100%;
+                    
+    }
+.intros, .photos, .bonus-container
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        justify-content: center;
+        padding: 40px;
+    }                    
+                 
 }
